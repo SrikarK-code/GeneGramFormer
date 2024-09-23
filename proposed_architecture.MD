@@ -30,25 +30,3 @@ We include auxiliary tasks such as grammar transition prediction and employ moti
 
 While some elements like the basic transformer structure and attention mechanisms (ideas) are taken from existing work (LSTM+transformers paper for grammars 2021), our architecture introduces several novel components relative to those works. The grammar-specific attention heads, dynamic positional encoding, and motif interaction graph are unique to our approach. The integration of biological knowledge into the architecture, such as the motif embedding augmentation and syntax regularization, is also a key novelty.
 
-The overarching features of our architecture include:
-
-- Hierarchical structure: Captures patterns at multiple levels of complexity.
- 
-- Grammar-specificity: Tailored components for each grammar type.
-
-- Biological integration: Incorporates domain knowledge into the model.
-
-- Interpretability: Generates explicit representations of grammatical structure.
-
-- Adaptive learning: Employs curriculum learning and adversarial training.
-
-- Multi-scale analysis: Processes sequences at various resolutions.
-
-- Flexible positional representation: Adapts to various spatial relationships between motifs.
-
-- Interactive motif modeling: Captures complex relationships between transcription factors.
-
-- Auxiliary tasks: Enhances learning through related prediction tasks.
-
-- Latent space modeling: Allows for continuous representation and interpolation of grammar types.
-
